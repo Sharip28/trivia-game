@@ -4,7 +4,6 @@ import { login } from '../../features/game/loggedSlice'
 import classes from './login.module.css'
 import { useFormik } from 'formik'
 
-
 function Login() {
     const dispatch = useDispatch()
 

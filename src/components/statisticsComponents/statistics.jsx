@@ -21,7 +21,7 @@ function Statistics() {
     const starter = useSelector(selectStarter)
     const statistics = useSelector(selectStatistics)
     const history = useSelector(selectHistory)
-    console.log('statistics>', user)
+    console.log('statistics>', statistics)
 
     const navigate = useNavigate()
 
