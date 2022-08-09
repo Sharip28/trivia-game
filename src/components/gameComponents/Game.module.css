@@ -1,0 +1,105 @@
+.game {
+    width: 100%;
+    height: 96vh;
+
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameStatus {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.statusResponseCorrect p {
+    margin: 0 10px;
+    padding: 0;
+}
+
+.statusResponseWrong p {
+    margin: 0 10px;
+    padding: 0;
+}
+
+.statusResponseCorrect {
+    width: 65%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(104, 134, 86);
+    border: outset 1.2px gray;
+    color: white;
+}
+
+.statusResponseWrong {
+    width: 65%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(134, 66, 74);
+    border: outset 1.2px gray;
+    color: white;
+}
+
+.scoreDiv {
+    width: 120px;
+    height: 40px;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Start button */
+.start__button__container {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__button {
+    width: 130px;
+    height: 40px;
+    border: outset 1px rgb(106, 106, 131);
+    border-radius: 10px;
+    background: cornflowerblue;
+    color: white;
+}
+
+.finish__button {
+    width: 130px;
+    height: 40px;
+    border: outset 1px rgb(106, 106, 131);
+    border-radius: 10px;
+    background: cornflowerblue;
+    color: white;
+}
+
+.finish__button_container {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.finish__button_container button {
+    width: 130px;
+    height: 40px;
+    border: outset 1.5px rgb(76, 81, 85);
+    border-radius: 10px;
+}

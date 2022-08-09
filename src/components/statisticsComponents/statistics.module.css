@@ -1,0 +1,158 @@
+.statistics {
+    margin: auto;
+}
+
+.currentGame {
+    width: 90%;
+    min-height: 150px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.currentGame__title {
+    width: 95%;
+    margin-top: 5px;
+}
+
+.currentGame__title h5 {
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: outset 1px rgb(106, 106, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.currentGame__tableContainer {
+    width: 95%;
+}
+
+.currentGame__table {
+    width: 100%;
+    border: solid 1px rgb(128, 128, 128);
+    border-collapse: collapse;
+}
+
+.currentGame__table th {
+    font-size: 15px;
+    border: solid 2px black;
+    text-align: center;
+}
+
+.currentGame__table td {
+    border-right: solid 1px gray;
+    text-align: center;
+}
+
+.currentGame__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.currentGame__buttons button {
+    font-size: 15px;
+    border-style: inset 1px rgb(91, 91, 95);
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.currentGame__buttons button:hover {
+    cursor: pointer;
+}
+
+.gameHistory {
+    width: 90%;
+    min-height: 150px;
+    background-color: white;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.gameHistory__title {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.gameHistory__title h5 {
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: outset 1px rgb(106, 106, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameHistory__tableContainer {
+    width: 95%;
+    margin-top: 10px;
+}
+
+.gameHistory__table {
+    width: 100%;
+    border: solid 1px rgb(128, 128, 128);
+    border-collapse: collapse;
+}
+
+.gameHistory__table th {
+    font-size: 15px;
+    border: solid 2px black;
+    text-align: center;
+}
+
+.gameHistory__table td {
+    border-right: solid 1px gray;
+    text-align: center;
+}
+
+.gameHistory__clearButton {
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: outset 1px rgb(106, 106, 131);
+
+}
+
+.gameHistory__clearButton:hover {
+    cursor: pointer;
+}
+
+.buttons__continue {
+    background-color: cornflowerblue;
+    color: white;
+    border: outset 1px rgb(106, 106, 131);
+
+}
+
+.buttons__finish {
+    background-color: cornflowerblue;
+    color: white;
+    border: outset 1px rgb(106, 106, 131);
+
+}
