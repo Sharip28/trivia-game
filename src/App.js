@@ -1,4 +1,3 @@
-import { Outlet } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/layout/navigation'
 import store from './redux/store';

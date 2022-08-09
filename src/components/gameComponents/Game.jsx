@@ -79,16 +79,18 @@ function Game() {
                             <p>Loading...</p>
                         )}
                         <div className={classes.gameStatus}>
-                            {responseScore === 0 ? null : responseScore > 0 ? (
-                                <div className={classes.statusResponseCorrect}>
-                                    <p className={classes.statusText} >{responseStatus}</p>
-                                    <p className={classes.statusScore} >{responseScore} points</p>
-                                </div>
-                            ) : (
-                                <div className={classes.statusResponseWrong}>
-                                    <p className={classes.statusText} >{responseStatus}</p>
-                                    <p className={classes.statusScore} >{responseScore} points</p>
-                                </div>
+                            {statistics.questionsQuantity !== 0 && (
+                                responseScore === 0 ? null : responseScore > 0 ? (
+                                    <div className={classes.statusResponseCorrect}>
+                                        <p className={classes.statusText} >{responseStatus}</p>
+                                        <p className={classes.statusScore} >{responseScore} points</p>
+                                    </div>
+                                ) : (
+                                    <div className={classes.statusResponseWrong}>
+                                        <p className={classes.statusText} >{responseStatus}</p>
+                                        <p className={classes.statusScore} >{responseScore} points</p>
+                                    </div>
+                                )
                             )}
                         </div>
 
