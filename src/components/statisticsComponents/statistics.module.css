@@ -21,7 +21,7 @@
 
 .currentGame__title h5 {
     width: 100px;
-    height: 20px;
+    height: 40px;
     font-size: 15px;
     padding: 5px;
     border-radius: 10px;
@@ -94,7 +94,7 @@
 
 .gameHistory__title h5 {
     width: 100px;
-    height: 20px;
+    height: 40px;
     font-size: 15px;
     padding: 5px;
     border-radius: 10px;
